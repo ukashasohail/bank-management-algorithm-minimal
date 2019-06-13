@@ -7,8 +7,7 @@ data = [[1000, 500], [1001, 900], [1002, 1500],[1003,5000],[1004,3000]]
 #checking user's choice
 if x == 1:
 
-    choice = int(input("""Enter 1 to deposit amount, 
-                        \n2 to withdraw amount, \n3 for transfer : """))
+    choice = int(input("""\nEnter 1 to deposit amount, \n2 to withdraw amount, \n3 for transfer : """))
 
     if choice == 1:
         #input of account number and amount
